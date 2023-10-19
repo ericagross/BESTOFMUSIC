@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#061c5e;
+    color:#C070FF;
+}
+
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.container_botao{ 
+    background-color:rgb(96, 130, 243);
+    border-radius: 15px;
+    padding: 5px;
+    color:black;
+    display:block;
+}
+
+.botao{
+    background-color:rgb(248, 248, 248);
+    border-radius: 15px;
+    padding: 5px;
+    color:rgb(3, 2, 29);
+    display: block;
+}
+
