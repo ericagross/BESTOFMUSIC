@@ -1,4 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 body{
-    background-color:#151F3D;
+    background-color:#2c3b68;
     color:#C070FF;
 }
+
+.principal{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.container_botao{ 
+    background-color:rgb(96, 130, 243);
+    border-radius: 15px;
+    padding: 5px;
+    color:rgb(250, 243, 249);
+    display:block;
+    text-decoration:none;
+}
+
+.botao{
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid #f2f3f7;
+    padding: 5px;
+    color:rgb(237, 237, 248);
+    display: block;
+    text-decoration: none;
+}
+
+.container_aviso{
+font-size: 15px;
+font-weight: 400;
+margin: 0px 10px 10px 10px;
+}
+
+.container_imagem{
+    margin: 100px 5px 5px 100px;
+    width:10em ;
+}
+
+.container_caixa{
+margin: 0 30px;
+font-size: 30px;
+}
+
+
+.container_imagem2{
+    margin: 10px 20px 20px 150px;
+    border-radius: 20px;
+    width: 31em;
+}
+
+.secundario_imagem{
+    width: 30em;
+}
+.descricao_titulo{
+    color: blueviolet;
+    margin: 20px 5px 30px 50px;
+    font-size: 40px;
+}
+
+.descricao_texto{
+    color: beige;
+    font-size: 30px;
+    margin: 0px 5px 0px 10px;
+}
+
+.secundario{
+align-items: center;
+margin: 0  10px;
+}
+
+
+
