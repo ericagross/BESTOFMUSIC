@@ -81,5 +81,20 @@ align-items: center;
 margin: 0  10px;
 }
 
+.container_descricao{
+    padding: 2em ;
+    font-size: 30px;
+}
+
+.secundario_botao{
+    display:inline-block;
+    padding: 1em;
+    margin-top:3em;
+    color: #d6adf5;
+    background-color: rgb(51, 2, 70);
+}
+    
+
+
 
 
